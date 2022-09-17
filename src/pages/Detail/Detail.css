@@ -1,0 +1,43 @@
+.ant-tabs-left
+  > .ant-tabs-content-holder
+  > .ant-tabs-content
+  > .ant-tabs-tabpane,
+.ant-tabs-left
+  > div
+  > .ant-tabs-content-holder
+  > .ant-tabs-content
+  > .ant-tabs-tabpane {
+  padding-left: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  
+}
+
+@media screen and (max-width: 992px) {
+  .ngay-chieu {
+    width: 100px;
+    word-wrap: break-word;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .rap-chieu {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 0px !important;
+  }
+
+  .detail_upper {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0 30px;
+  }
+  .detail_upper_review {
+    display: grid;
+    grid-column-start: 5;
+  }
+}
+
+@media screen and (max-width: 414px) {
+}

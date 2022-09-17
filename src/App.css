@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Alata", sans-serif;
+}
+
+a {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #d1d5d0;
+  margin: 0px;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+}
+
+a:focus {
+  outline: none !important;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #dcf836;
+  transition: all 0.5s linear;
+}
+
+/*---------------------------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+  transition: all 0.5s ease-out;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #d1d5d0;
+  margin: 0px;
+  transition: all 0.5s ease-out;
+}
+
+ul,
+li {
+  margin: 0px;
+  list-style-type: none;
+}
+
+span {
+  color: #fff;
+}
+
+/*---------------------------------------------*/
+input {
+  outline: none;
+  border: none;
+}
+
+textarea {
+  outline: none;
+  border: none;
+}
+
+textarea:focus,
+input:focus {
+  border-color: transparent !important;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+input:focus:-moz-placeholder {
+  color: transparent;
+}
+input:focus::-moz-placeholder {
+  color: transparent;
+}
+input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+textarea:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+textarea:focus:-moz-placeholder {
+  color: transparent;
+}
+textarea:focus::-moz-placeholder {
+  color: transparent;
+}
+textarea:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+input::-webkit-input-placeholder {
+  color: #adadad;
+}
+input:-moz-placeholder {
+  color: #adadad;
+}
+input::-moz-placeholder {
+  color: #adadad;
+}
+input:-ms-input-placeholder {
+  color: #adadad;
+}
+
+textarea::-webkit-input-placeholder {
+  color: #adadad;
+}
+textarea:-moz-placeholder {
+  color: #adadad;
+}
+textarea::-moz-placeholder {
+  color: #adadad;
+}
+textarea:-ms-input-placeholder {
+  color: #adadad;
+}
+
+/*---------------------------------------------*/
+button {
+  outline: none !important;
+  border: none;
+  background: transparent;
+  color: #fff;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+iframe {
+  border: none !important;
+}
+
+.pink-color {
+  color: #dd003f;
+}
+.bg-pink-color {
+  background-color: #dd003f;
+}
+.bg-pink-color-hover:hover {
+  background-color: #dd003f;
+}
+.bg-pink-color-focus:focus {
+  background-color: #dd003f;
+}
+
+.yellow-color {
+  color: #dcf836;
+  transition: all 0.5s ease-out;
+}
+.yellow-color-hover:hover {
+  transition: all 0.5s ease-out;
+  color: #dcf836;
+}
+
+.bg-gray-blue-color {
+  background-color: #0f2133;
+}
+
+.bg-dark-color {
+  background-color: #020d18;
+}
+
+.bg-dark-blue-color {
+  background-color: #06121e;
+}
+
+.bg-light-blue-color {
+  background-color: #1c3d5d;
+}
+.bg-light-blue-color-hover:hover {
+  background-color: #1c3d5d;
+}
+.bg-light-blue-color-focus:focus {
+  background-color: #1c3d5d;
+}
+.title-color {
+  transition: all 0.5s ease-out;
+  color: #4280bf;
+}
+.title-color-hover:hover {
+  transition: all 0.5s ease-out;
+  color: #4280bf;
+}
